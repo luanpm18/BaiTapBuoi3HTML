@@ -5,10 +5,11 @@
     <link rel="stylesheet" href="styles/style2.css"/>
 </head>
 <body>
-<h1>Thanks for joining our email list</h1>
+<h1>Thanks for filling out our survey!</h1>
 
 <p>Here is the information that you entered:</p>
 
+<h2>Your Information:</h2>
 <label>Email:</label>
 <span>${user.email}</span><br>
 <label>First Name:</label>
@@ -17,6 +18,8 @@
 <span>${user.lastName}</span><br>
 <label>Date:</label>
 <span>${user.date}</span><br>
+
+<h2>Additional Details:</h2>
 <label>Hear About:</label>
 <span>${survey.hearAbout}</span><br>
 <label>Announcement Like:</label>

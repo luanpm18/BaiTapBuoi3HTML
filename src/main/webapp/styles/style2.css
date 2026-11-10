@@ -9,10 +9,6 @@ h1, h2 {
     color: teal;
 }
 
-p {
-    color: darkorange;
-}
-
 label {
     display: inline-block;
     min-width: 150px;
